@@ -1,9 +1,0 @@
-library(basedosdados)
-library(tidyverse)
-
-set_billing_id('projeto-ciencia-de-dados-2022')
-
-bd_ssp <- bd_table %>%
-  filter(ano >= 2019) %>%
-  select(ano, mes, homicidio_doloso) %>%
-  group_by(ano, mes)
