@@ -1,3 +1,6 @@
+install.packages('devtools')
+devtools::install_github("ipeaGIT/geobr")
+devtools::install_github("jaredhuling/jcolors")
 library("basedosdados")
 library(tidyverse)
 library(zoo)
