@@ -10,9 +10,6 @@ RUN R -e 'install.packages("ggplot2")'
 RUN R -e 'install.packages("lubridate")'
 RUN R -e 'install.packages("devtools")'
 
-RUN R -e 'devtools::install_github("ipeaGIT/geobr")'
-RUN R -e 'devtools::install_github("jaredhuling/jcolors")'
-
 CMD Rscript /script.R
 
 
