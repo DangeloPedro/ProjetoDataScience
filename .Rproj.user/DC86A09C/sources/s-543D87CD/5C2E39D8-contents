@@ -1,0 +1,4 @@
+ggcust <- function(...){
+  ggplot(...) +
+    theme_bw()
+}

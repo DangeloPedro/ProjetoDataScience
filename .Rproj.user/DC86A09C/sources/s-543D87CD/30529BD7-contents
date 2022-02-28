@@ -1,0 +1,5 @@
+or_capital %>%
+  filter(ano %in% seq(2004,2020,5))%>%
+  ggplot(aes(latrocinio, homicidio_doloso, colour = factor(ano))) +geom_point(size=5)+
+  theme(legend.position="top")
+  
